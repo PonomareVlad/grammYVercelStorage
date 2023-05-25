@@ -9,6 +9,8 @@
     "tunnel": "cloudflared tunnel --url http://localhost:3000"
   },
   "dependencies": {
+    "@grammyjs/storage-psql": "^2.2.0",
+    "@vercel/postgres": "^0.3.0",
     "grammy": "^1.16.1"
   },
   "engines": {
