@@ -9,6 +9,8 @@
     "tunnel": "cloudflared tunnel --url http://localhost:3000"
   },
   "dependencies": {
+    "@grammyjs/storage-redis": "^2.2.0",
+    "@vercel/kv": "^0.2.1",
     "grammy": "^1.16.1"
   },
   "engines": {
